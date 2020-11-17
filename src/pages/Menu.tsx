@@ -13,6 +13,7 @@ import React from "react";
 import "./Menu.css";
 import MenuItem from "../components/MenuItem";
 
+//array with the labels on main page
 const labels = [
   "Η επιχείρηση",
   "Κατηγορίες",
@@ -20,6 +21,7 @@ const labels = [
   "Αίτηση Ανάληψης",
   "Ενημέρωση Κατάθεσης",
 ];
+
 const powerImage = "/assets/images/Power-2-512.png";
 const Home: React.FC = () => {
   return (

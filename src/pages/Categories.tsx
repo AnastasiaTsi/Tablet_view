@@ -37,7 +37,7 @@ const Home: React.FC = () => {
       description: "",
       name: "",
     },
-  ]);
+  ]); //filtered objects
 
   useEffect(() => {
     let tempSearchResult = object.filter((ele) =>
@@ -77,7 +77,7 @@ const Home: React.FC = () => {
       <IonHeader>
         <IonToolbar>
           <IonButtons slot="start">
-            <IonButton color="danger" fill="outline">
+            <IonButton>
               <IonImg src={backImage} />
             </IonButton>
           </IonButtons>
@@ -85,7 +85,7 @@ const Home: React.FC = () => {
           <IonTitle> Επιλέξτε Πελάτες</IonTitle>
 
           <IonButtons slot="end" id="powerImage">
-            <IonButton color="danger" fill="outline">
+            <IonButton>
               <IonImg src={powerImage} />
             </IonButton>
           </IonButtons>

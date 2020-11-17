@@ -23,17 +23,6 @@ import "@ionic/react/css/display.css";
 import "./theme/variables.css";
 import { IonReactRouter } from "@ionic/react-router";
 import { Route } from "react-router";
-/* <IonApp>
-<IonHeader>
-  <IonToolbar>
-    <IonTitle>Menu</IonTitle>
-  </IonToolbar>
-</IonHeader>
-
-<IonContent>
-  <IonButton color="success">Success</IonButton>
-</IonContent>
-</IonApp> */
 
 const App: React.FC = () => (
   <IonApp>
