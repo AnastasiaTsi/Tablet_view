@@ -1,0 +1,7 @@
+{
+  "name": "tablet-view",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

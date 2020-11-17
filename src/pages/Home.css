@@ -1,0 +1,8 @@
+ion-toolbar {
+  --background: #ebac13;
+  --color: black;
+}
+
+:root {
+  --ion-background-color: #ffffff;
+}

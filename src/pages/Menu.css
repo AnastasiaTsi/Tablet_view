@@ -1,0 +1,26 @@
+ion-toolbar {
+  --background: #ebac13;
+  --color: black;
+}
+ion-item {
+  --background: white;
+  --color: black;
+}
+#flexColumn {
+  flex-direction: column;
+}
+#smallImg {
+  width: 30%;
+  height: 30%;
+}
+#sideImg {
+  width: 50%;
+  height: 50%;
+}
+#powerImage {
+  width: 30%;
+}
+ion-img {
+  width: 100%;
+  height: 100%;
+}
